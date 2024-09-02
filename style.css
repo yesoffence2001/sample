@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: url('https://images.hdqwalls.com/download/anime-couple-lets-talk-4k-qe-1280x1024.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #e63946;
+}
+
+.response-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#yes-button {
+    background-color: #2a9d8f;
+    color: #fff;
+}
+
+#no-button {
+    background-color: #e76f51;
+    color: #fff;
+}
+
+#response-message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
